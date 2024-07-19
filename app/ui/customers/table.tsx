@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import { subFontLusitana } from '@/app/ui/fonts';
-import Search from '@/app/ui/search';
+import Image from "next/image";
+import { subFontsubFontLusitana } from "@/app/ui/fonts";
+import Search from "@/app/ui/search";
 import {
   CustomersTableType,
   FormattedCustomersTable,
-} from '@/app/lib/definitions';
+} from "@/app/lib/definitions";
 
 //edited
 
@@ -15,7 +15,9 @@ export default async function CustomersTable({
 }) {
   return (
     <div className="w-full">
-      <h1 className={`${subFontLusitana.className} mb-8 text-xl md:text-2xl`}>
+      <h1
+        className={`${subFontsubFontLusitana.className} mb-8 text-xl md:text-2xl`}
+      >
         Customers
       </h1>
       <Search placeholder="Search customers..." />
